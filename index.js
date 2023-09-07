@@ -89,7 +89,7 @@ app.post("/tripaytest", async (req, res) => {
 
     res.status(200).json({
       message: "sukses",
-      callbackUrl: response.data.data.checkout_url,
+      callbackUrl: response.data.data(),
     });
   } catch (error) {
     res.status(200).json({

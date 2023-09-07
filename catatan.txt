@@ -1,7 +1,19 @@
 
 
 
+//CARA SIMPAN KE GITHUB
+
 git add .
 git status
 git commit -m 'komentarnya'
 git push -u origin master
+
+
+
+
+
+//AKUN REPLIT = AKUN GITHUB
+
+
+
+//https://replit.com/@tedijumadi/tripay#index(error).js
