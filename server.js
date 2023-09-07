@@ -41,6 +41,24 @@ app.get('/demo', (req, res)=>{
 
 
 
+const crypto = require('crypto');
+const dataToHash = 'Hello, World!';
+// Membuat objek hash dengan algoritma SHA-256
+const hash = crypto.createHash('sha256');
+// Menambahkan data yang akan di-hash
+hash.update(dataToHash);
+// Menghasilkan hasil hash dalam format hexadecimal
+const hashedData = hash.digest('hex');
+// console.log('Hasil Hash:', hashedData);
+
+app.get('/cryptohash',(req, res)=>{
+    res.send(hashedData);
+});
+
+
+
+
+
 const HTTP_PORT = process.env.PORT || 8080;
 app.listen(HTTP_PORT, ()=>{
     console.log(`Server is listening at port ${HTTP_PORT}`);
