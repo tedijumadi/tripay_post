@@ -5,6 +5,13 @@ app.get('/', (req, res) =>{
     res.send('Hello World');
 });
 
+app.get('/get', (req, res) =>{
+    res.send('Get Momon');
+});
+
+app.get('/post', (req, res) =>{
+    res.send('post Momon');
+});
 
 app.get('/add',(req, res)=>{
     res.send('new recoed added')
