@@ -1,0 +1,27 @@
+{
+    "method": "PERMATAVA",
+    "merchant_ref": "INV99898989",
+    "amount": 100000,
+    "customer_name": "VEGASUS",
+    "customer_email": "VEGASUS@domain.com",
+    "customer_phone": "081234567890",
+    "order_items": [
+        {
+            "sku": "PRODUK1",
+            "name": "LAPTOP",
+            "price": 50000,
+            "quantity": 1,
+            "product_url": "https://tokokamu.com/product/nama-produk-1",
+            "image_url": "https://tokokamu.com/product/nama-produk-1.jpg"
+        },
+        {
+            "sku": "PRODUK2",
+            "name": "KEYBOARD",
+            "price": 50000,
+            "quantity": 1,
+            "product_url": "https://tokokamu.com/product/nama-produk-2",
+            "image_url": "https://tokokamu.com/product/nama-produk-2.jpg"
+        }
+    ],
+    "return_url": "https://domainanda.com/redirect"
+}
