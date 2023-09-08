@@ -17,3 +17,13 @@ git push -u origin master
 
 
 //https://replit.com/@tedijumadi/tripay#index(error).js
+
+
+
+//status
+
+
+-UNPAID
+-PAID
+-FAILED
+-EXPIRED

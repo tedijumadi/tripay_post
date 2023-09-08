@@ -101,23 +101,13 @@ app.post("/tripaytest", async (req, res) => {
 
 
 //callback code
-app.post('/callback', (req, res) => {
-    var json = req.body;
-     console.log(json);
-  // res.status(200).send("Ok");
-  res.status(200).json({
-    success: "true",
-    status: req.body.status
-  });
+app.post('/tripaycallback', (req, res) => {
+  res.status(200).send("Ok");
 
-
-  
 });
 
 
-app.get('/halaman_kita', (req, res) => {
-  res.send('ini halaman kita');
-});
+
 
 //
 const HTTP_PORT = process.env.PORT || 3000;
